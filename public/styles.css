@@ -1,0 +1,10 @@
+/*Header*/
+html {
+  background-color: tomato;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1{
+  padding-left: 30px;
+}
