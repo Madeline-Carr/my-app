@@ -3,6 +3,6 @@ import ReactDOM from "react-dom";
 import Header from "./components/header";
 
 ReactDOM.render(
-    <Header />,
+    <Header name="Maddie" />,
     document.getElementById('root')
 );
