@@ -4,5 +4,6 @@ import Header from "./components/header";
 
 ReactDOM.render(
     <Header name="Maddie" />,
+    <Header name="David" />,
     document.getElementById('root')
 );
