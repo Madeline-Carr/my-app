@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 import Header from "./components/header";
 
 ReactDOM.render(
-    <Header name="Maddie" />,
-    <Header name="David" />,
+    <div>
+        <Header name="Maddie" />
+        <Header name="David" />
+    </div>,
     document.getElementById('root')
 );
