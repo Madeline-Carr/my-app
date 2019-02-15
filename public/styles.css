@@ -5,6 +5,8 @@ html {
   font-family: sans-serif;
 }
 
-h1{
-  padding-left: 30px;
+.container{
+  width: 70%; 
+  margin: 0 auto;
 }
+
