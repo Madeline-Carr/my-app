@@ -5,11 +5,12 @@ class Counter extends Component {
         imageURL: 'https:picsum.photos/200'
     };
     render() {
+        let classes = "badge m-2 badge-";
+        classes += this.state.count === 0 ? "warning" : "primary";
         return (
             <div>
-                <h2>Hello!</h2>
                 <img src={this.state.imageURL} alt="" />
-                <span className="badge badge-primary m-2">{this.formatCount()}</span>
+                <span className={classes}>{this.formatCount()}</span>
                 <button className="btn btn-danger btn-sm">Increment</button>
             </div>
         );
